@@ -11,8 +11,13 @@ import net.minecraft.world.World;
  */
 public class SunstoneAppleItem extends Item {
 
-	/** На сколько тиков отматывается время суток за одно яблоко. */
-	private static final long REWIND_TICKS = 500L;
+	/**
+	 * На сколько тиков отматывается время суток за одно яблоко.
+	 *
+	 * Яблоко стоит 8 блоков, то есть 72 солнечных камня — за такую цену
+	 * прежние 500 тиков (меньше получаса игрового времени) не оправдывались.
+	 */
+	private static final long REWIND_TICKS = 2000L;
 
 	private static final long DAY_LENGTH = 24000L;
 
