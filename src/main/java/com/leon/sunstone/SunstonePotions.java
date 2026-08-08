@@ -21,9 +21,9 @@ import java.util.List;
  */
 public class SunstonePotions {
 
-	// Чем сильнее порядок, тем короче действие: слабый эффект носишь долго,
-	// сильный — вспышкой, а третий вообще пережить надо.
-	private static final int DURATION_1 = 3600;   // 3 минуты, как у ванильных утилитарных зелий
+	// Первые два порядка держатся одинаково: разница между ними в наборе
+	// эффектов, а не во времени. Третий заметно короче — его ещё пережить надо.
+	private static final int DURATION_1 = 1800;   // 1.5 минуты
 	private static final int DURATION_2 = 1800;   // 1.5 минуты
 	private static final int DURATION_3 = 600;    // 30 секунд
 
