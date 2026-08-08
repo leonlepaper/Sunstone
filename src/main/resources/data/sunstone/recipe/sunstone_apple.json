@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"BBB",
+		"BAB",
+		"BBB"
+	],
+	"key": {
+		"B": {
+			"item": "sunstone:sunstone_block"
+		},
+		"A": {
+			"item": "minecraft:apple"
+		}
+	},
+	"result": {
+		"id": "sunstone:sunstone_apple",
+		"count": 1
+	}
+}

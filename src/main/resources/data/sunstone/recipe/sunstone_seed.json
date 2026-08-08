@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SSS",
+		"SWS",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"item": "sunstone:sunstone"
+		},
+		"W": {
+			"item": "minecraft:wheat_seeds"
+		}
+	},
+	"result": {
+		"id": "sunstone:sunstone_seed",
+		"count": 1
+	}
+}

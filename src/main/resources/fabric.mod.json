@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "sunstone",
+	"version": "${version}",
+	"name": "Sunstone",
+	"description": "Солнечная руда: светящиеся блоки, яблоки для отката времени суток и зельеварение на солнечных цветах.",
+	"authors": [
+		"lengineer"
+	],
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/sunstone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.leon.sunstone.Sunstone"
+		],
+		"client": [
+			"com.leon.sunstone.SunstoneClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

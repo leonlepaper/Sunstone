@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "sunstone:block/deepslate_sunstone_ore"
+	}
+}
