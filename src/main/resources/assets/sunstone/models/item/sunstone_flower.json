@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "sunstone:item/sunstone_flower"
+		"layer0": "sunstone:block/sunstone_flower"
 	}
 }

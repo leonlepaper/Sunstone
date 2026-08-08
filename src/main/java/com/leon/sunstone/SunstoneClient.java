@@ -18,8 +18,11 @@ public class SunstoneClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		// cutout, а не cutout_mipped: ровно так ваниль рисует свои грядки.
-		BlockRenderLayerMap.INSTANCE.putBlock(SunstoneBlocks.SUNSTONE_CROP, RenderLayer.getCutout());
+		// cutout, а не cutout_mipped: ровно так ваниль рисует свои грядки и цветы.
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+				SunstoneBlocks.SUNSTONE_CROP,
+				SunstoneBlocks.SUNSTONE_FLOWER,
+				SunstoneBlocks.POTTED_SUNSTONE_FLOWER);
 
 		Sunstone.LOGGER.info("Клиентская часть Sunstone загружена");
 	}

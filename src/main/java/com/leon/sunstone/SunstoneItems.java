@@ -2,6 +2,7 @@ package com.leon.sunstone;
 
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -22,9 +23,13 @@ public class SunstoneItems {
 	public static final Item SUNSTONE = register("sunstone",
 			new Item(new Item.Settings()));
 
-	/** Урожай с грядки. Ингредиент всех трёх порядков дистиллята. */
+	/**
+	 * Урожай с грядки. Ингредиент всех трёх порядков дистиллята.
+	 * BlockItem, а не простой Item: цветок можно поставить на землю и в горшок.
+	 * Название при этом берётся из блока — ключ перевода block.sunstone.sunstone_flower.
+	 */
 	public static final Item SUNSTONE_FLOWER = register("sunstone_flower",
-			new Item(new Item.Settings()));
+			new BlockItem(SunstoneBlocks.SUNSTONE_FLOWER, new Item.Settings()));
 
 	/**
 	 * Семя грядки. AliasedBlockItem ставит блок, но название берёт из предмета,

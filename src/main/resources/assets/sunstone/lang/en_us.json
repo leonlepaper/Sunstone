@@ -1,30 +1,25 @@
 {
 	"itemGroup.sunstone": "Sunstone",
-
 	"item.sunstone.raw_sunstone": "Raw Sunstone",
 	"item.sunstone.sunstone": "Sunstone",
 	"item.sunstone.sunstone_seed": "Sunstone Seed",
-	"item.sunstone.sunstone_flower": "Sunstone Flower",
 	"item.sunstone.sunstone_apple": "Sunstone Apple",
-
 	"block.sunstone.sunstone_ore": "Sunstone Ore",
 	"block.sunstone.deepslate_sunstone_ore": "Deepslate Sunstone Ore",
 	"block.sunstone.sunstone_block": "Block of Sunstone",
 	"block.sunstone.sunstone_crop": "Sunstone Crop",
-
+	"block.sunstone.sunstone_flower": "Sunstone Flower",
+	"block.sunstone.potted_sunstone_flower": "Potted Sunstone Flower",
 	"effect.sunstone.sunlit": "Sunlit",
 	"effect.sunstone.solar_overload": "Solar Overload",
-
 	"item.minecraft.potion.effect.solar_distillate": "Solar Distillate",
 	"item.minecraft.splash_potion.effect.solar_distillate": "Splash Solar Distillate",
 	"item.minecraft.lingering_potion.effect.solar_distillate": "Lingering Solar Distillate",
 	"item.minecraft.tipped_arrow.effect.solar_distillate": "Arrow of Solar Distillate",
-
 	"item.minecraft.potion.effect.solar_distillate_2": "Distillate of the Second Order",
 	"item.minecraft.splash_potion.effect.solar_distillate_2": "Splash Distillate of the Second Order",
 	"item.minecraft.lingering_potion.effect.solar_distillate_2": "Lingering Distillate of the Second Order",
 	"item.minecraft.tipped_arrow.effect.solar_distillate_2": "Arrow of the Second Order",
-
 	"item.minecraft.potion.effect.solar_distillate_3": "Distillate of the Third Order",
 	"item.minecraft.splash_potion.effect.solar_distillate_3": "Splash Distillate of the Third Order",
 	"item.minecraft.lingering_potion.effect.solar_distillate_3": "Lingering Distillate of the Third Order",

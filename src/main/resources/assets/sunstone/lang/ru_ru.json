@@ -1,30 +1,25 @@
 {
 	"itemGroup.sunstone": "Солнечный камень",
-
 	"item.sunstone.raw_sunstone": "Сырая солнечная руда",
 	"item.sunstone.sunstone": "Солнечный камень",
 	"item.sunstone.sunstone_seed": "Солнечное семя",
-	"item.sunstone.sunstone_flower": "Солнечный цветок",
 	"item.sunstone.sunstone_apple": "Солнечное яблоко",
-
 	"block.sunstone.sunstone_ore": "Солнечная руда",
 	"block.sunstone.deepslate_sunstone_ore": "Глубинносланцевая солнечная руда",
 	"block.sunstone.sunstone_block": "Блок солнечного камня",
 	"block.sunstone.sunstone_crop": "Грядка солнечного камня",
-
+	"block.sunstone.sunstone_flower": "Солнечный цветок",
+	"block.sunstone.potted_sunstone_flower": "Солнечный цветок в горшке",
 	"effect.sunstone.sunlit": "Солнечный свет",
 	"effect.sunstone.solar_overload": "Солнечный перегрев",
-
 	"item.minecraft.potion.effect.solar_distillate": "Солнечный дистиллят",
 	"item.minecraft.splash_potion.effect.solar_distillate": "Взрывной солнечный дистиллят",
 	"item.minecraft.lingering_potion.effect.solar_distillate": "Туманный солнечный дистиллят",
 	"item.minecraft.tipped_arrow.effect.solar_distillate": "Стрела солнечного дистиллята",
-
 	"item.minecraft.potion.effect.solar_distillate_2": "Дистиллят второго порядка",
 	"item.minecraft.splash_potion.effect.solar_distillate_2": "Взрывной дистиллят второго порядка",
 	"item.minecraft.lingering_potion.effect.solar_distillate_2": "Туманный дистиллят второго порядка",
 	"item.minecraft.tipped_arrow.effect.solar_distillate_2": "Стрела дистиллята второго порядка",
-
 	"item.minecraft.potion.effect.solar_distillate_3": "Дистиллят третьего порядка",
 	"item.minecraft.splash_potion.effect.solar_distillate_3": "Взрывной дистиллят третьего порядка",
 	"item.minecraft.lingering_potion.effect.solar_distillate_3": "Туманный дистиллят третьего порядка",
