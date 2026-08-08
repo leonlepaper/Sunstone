@@ -21,26 +21,31 @@ import java.util.List;
  */
 public class SunstonePotions {
 
-	/** 1.5 минуты — как у большинства ванильных зелий. */
-	private static final int DURATION = 1800;
+	// Чем сильнее порядок, тем короче действие: слабый эффект носишь долго,
+	// сильный — вспышкой, а третий вообще пережить надо.
+	private static final int DURATION_1 = 3600;   // 3 минуты, как у ванильных утилитарных зелий
+	private static final int DURATION_2 = 1800;   // 1.5 минуты
+	private static final int DURATION_3 = 300;    // 15 секунд
 
-	/** Третий порядок короче: гореть полторы минуты никто не захочет. */
-	private static final int OVERLOAD_DURATION = 300;
-
-	/** Первый порядок: обычное свечение, подсвечивает контур сквозь стены. */
+	/**
+	 * Первый порядок: ускоряет добычу.
+	 *
+	 * «Свечение» тут не годится — его уже раздают спектральные стрелы.
+	 * Спешка же зельем не выдаётся нигде: в ванили её даёт только маяк.
+	 */
 	public static final RegistryEntry<Potion> SOLAR_DISTILLATE = register("solar_distillate",
 			new Potion("solar_distillate",
-					new StatusEffectInstance(StatusEffects.GLOWING, DURATION, 0)));
+					new StatusEffectInstance(StatusEffects.HASTE, DURATION_1, 0)));
 
 	/** Второй порядок: носитель светит вокруг себя, как факел. */
 	public static final RegistryEntry<Potion> SOLAR_DISTILLATE_2 = register("solar_distillate_2",
 			new Potion("solar_distillate_2",
-					new StatusEffectInstance(SunstoneEffects.SUNLIT, DURATION, 0)));
+					new StatusEffectInstance(SunstoneEffects.SUNLIT, DURATION_2, 0)));
 
 	/** Третий порядок: перегрев, носитель загорается. */
 	public static final RegistryEntry<Potion> SOLAR_DISTILLATE_3 = register("solar_distillate_3",
 			new Potion("solar_distillate_3",
-					new StatusEffectInstance(SunstoneEffects.SOLAR_OVERLOAD, OVERLOAD_DURATION, 0)));
+					new StatusEffectInstance(SunstoneEffects.SOLAR_OVERLOAD, DURATION_3, 0)));
 
 	private static RegistryEntry<Potion> register(String name, Potion potion) {
 		return Registry.registerReference(Registries.POTION, Sunstone.id(name), potion);
