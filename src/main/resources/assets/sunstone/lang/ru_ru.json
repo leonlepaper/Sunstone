@@ -4,6 +4,7 @@
 	"item.sunstone.sunstone": "Солнечный камень",
 	"item.sunstone.sunstone_seed": "Солнечное семя",
 	"item.sunstone.sunstone_apple": "Солнечное яблоко",
+	"item.sunstone.sunstone_apple.night": "Солнце уже село — яблоко бессильно",
 	"block.sunstone.sunstone_ore": "Солнечная руда",
 	"block.sunstone.deepslate_sunstone_ore": "Глубинносланцевая солнечная руда",
 	"block.sunstone.sunstone_block": "Блок солнечного камня",

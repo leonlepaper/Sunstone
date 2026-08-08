@@ -4,6 +4,7 @@
 	"item.sunstone.sunstone": "Sunstone",
 	"item.sunstone.sunstone_seed": "Sunstone Seed",
 	"item.sunstone.sunstone_apple": "Sunstone Apple",
+	"item.sunstone.sunstone_apple.night": "The sun has already set",
 	"block.sunstone.sunstone_ore": "Sunstone Ore",
 	"block.sunstone.deepslate_sunstone_ore": "Deepslate Sunstone Ore",
 	"block.sunstone.sunstone_block": "Block of Sunstone",
