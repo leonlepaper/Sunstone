@@ -25,7 +25,7 @@ public class SunstonePotions {
 	// сильный — вспышкой, а третий вообще пережить надо.
 	private static final int DURATION_1 = 3600;   // 3 минуты, как у ванильных утилитарных зелий
 	private static final int DURATION_2 = 1800;   // 1.5 минуты
-	private static final int DURATION_3 = 300;    // 15 секунд
+	private static final int DURATION_3 = 600;    // 30 секунд
 
 	/**
 	 * Первый порядок: ускоряет добычу.
@@ -37,15 +37,28 @@ public class SunstonePotions {
 			new Potion("solar_distillate",
 					new StatusEffectInstance(StatusEffects.HASTE, DURATION_1, 0)));
 
-	/** Второй порядок: носитель светит вокруг себя, как факел. */
+	/**
+	 * Второй порядок: свет вокруг носителя плюс всё та же спешка.
+	 * Порядки складываются, а не заменяют друг друга — иначе второй был бы
+	 * не усилением первого, а просто другим зельем.
+	 */
 	public static final RegistryEntry<Potion> SOLAR_DISTILLATE_2 = register("solar_distillate_2",
 			new Potion("solar_distillate_2",
-					new StatusEffectInstance(SunstoneEffects.SUNLIT, DURATION_2, 0)));
+					new StatusEffectInstance(SunstoneEffects.SUNLIT, DURATION_2, 0),
+					new StatusEffectInstance(StatusEffects.HASTE, DURATION_2, 0)));
 
-	/** Третий порядок: перегрев, носитель загорается. */
+	/**
+	 * Третий порядок: вершина ветки — свет и удвоенная спешка, но носитель горит.
+	 *
+	 * Огнестойкость сюда намеренно не входит: она обнулила бы всю затею.
+	 * Подготовиться игрок должен сам — своим зельем, дождём или водой.
+	 * Во взрывном варианте это же зелье работает как оружие: поджигает тех, в кого прилетело.
+	 */
 	public static final RegistryEntry<Potion> SOLAR_DISTILLATE_3 = register("solar_distillate_3",
 			new Potion("solar_distillate_3",
-					new StatusEffectInstance(SunstoneEffects.SOLAR_OVERLOAD, DURATION_3, 0)));
+					new StatusEffectInstance(SunstoneEffects.SOLAR_OVERLOAD, DURATION_3, 0),
+					new StatusEffectInstance(SunstoneEffects.SUNLIT, DURATION_3, 0),
+					new StatusEffectInstance(StatusEffects.HASTE, DURATION_3, 1)));
 
 	private static RegistryEntry<Potion> register(String name, Potion potion) {
 		return Registry.registerReference(Registries.POTION, Sunstone.id(name), potion);
