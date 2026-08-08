@@ -10,13 +10,18 @@ import net.minecraft.registry.entry.RegistryEntry;
 /** Эффекты мода и их регистрация. */
 public class SunstoneEffects {
 
+	// Цвет эффекта — это ещё и цвет зелья: ваниль смешивает цвета всех эффектов,
+	// взвешивая по уровню. Золотой (0xFFD84F) сливался с ванильной «Спешкой»
+	// (0xD9C043), и первые два порядка выглядели одинаково. Белый и красный
+	// разводят смеси: жёлтый -> бледно-жёлтый -> оранжевый.
+
 	/** Реальный свет вокруг носителя. Второй порядок дистиллята. */
 	public static final RegistryEntry<StatusEffect> SUNLIT = register("sunlit",
-			new SunlitStatusEffect(StatusEffectCategory.BENEFICIAL, 0xFFD84F));
+			new SunlitStatusEffect(StatusEffectCategory.BENEFICIAL, 0xFFFFFF));
 
 	/** Носитель горит. Третий порядок дистиллята. */
 	public static final RegistryEntry<StatusEffect> SOLAR_OVERLOAD = register("solar_overload",
-			new SolarOverloadStatusEffect(StatusEffectCategory.HARMFUL, 0xFF6A00));
+			new SolarOverloadStatusEffect(StatusEffectCategory.HARMFUL, 0xFF3010));
 
 	private static RegistryEntry<StatusEffect> register(String name, StatusEffect effect) {
 		return Registry.registerReference(Registries.STATUS_EFFECT, Sunstone.id(name), effect);
