@@ -2,13 +2,13 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"pattern": [
-		"BBB",
-		"BAB",
-		"BBB"
+		"SSS",
+		"SAS",
+		"SSS"
 	],
 	"key": {
-		"B": {
-			"item": "sunstone:sunstone_block"
+		"S": {
+			"item": "sunstone:sunstone"
 		},
 		"A": {
 			"item": "minecraft:apple"

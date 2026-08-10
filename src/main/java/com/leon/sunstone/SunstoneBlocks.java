@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.FlowerPotBlock;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -37,6 +38,31 @@ public class SunstoneBlocks {
 	public static final Block SUNSTONE_BLOCK = register("sunstone_block",
 			new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
 					.luminance(state -> 14)));
+
+	/** Полированный вариант — тот же свет, другая фактура. */
+	public static final Block POLISHED_SUNSTONE = register("polished_sunstone",
+			new Block(buildingSettings()));
+
+	public static final Block SUNSTONE_STAIRS = register("sunstone_stairs",
+			new SunstoneStairsBlock(SUNSTONE_BLOCK.getDefaultState(), buildingSettings()));
+
+	public static final Block SUNSTONE_SLAB = register("sunstone_slab",
+			new SlabBlock(buildingSettings()));
+
+	public static final Block POLISHED_SUNSTONE_STAIRS = register("polished_sunstone_stairs",
+			new SunstoneStairsBlock(POLISHED_SUNSTONE.getDefaultState(), buildingSettings()));
+
+	public static final Block POLISHED_SUNSTONE_SLAB = register("polished_sunstone_slab",
+			new SlabBlock(buildingSettings()));
+
+	/**
+	 * Общие настройки строительных блоков. Свет задаём явно, а не через
+	 * copy(SUNSTONE_BLOCK): копирование настроек переносит не всё, и молча
+	 * потерянная светимость обнаружилась бы только в игре.
+	 */
+	private static AbstractBlock.Settings buildingSettings() {
+		return AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).luminance(state -> 14);
+	}
 
 	/**
 	 * Грядка солнечного камня. Регистрируется без BlockItem: в инвентаре её

@@ -36,6 +36,11 @@ public class SunstoneItemGroups {
 			entries.add(SunstoneItems.RAW_SUNSTONE);
 			entries.add(SunstoneItems.SUNSTONE);
 			entries.add(SunstoneBlocks.SUNSTONE_BLOCK);
+			entries.add(SunstoneBlocks.SUNSTONE_STAIRS);
+			entries.add(SunstoneBlocks.SUNSTONE_SLAB);
+			entries.add(SunstoneBlocks.POLISHED_SUNSTONE);
+			entries.add(SunstoneBlocks.POLISHED_SUNSTONE_STAIRS);
+			entries.add(SunstoneBlocks.POLISHED_SUNSTONE_SLAB);
 			entries.add(SunstoneItems.SUNSTONE_APPLE);
 			entries.add(SunstoneItems.SUNSTONE_SEED);
 			entries.add(SunstoneItems.SUNSTONE_FLOWER);

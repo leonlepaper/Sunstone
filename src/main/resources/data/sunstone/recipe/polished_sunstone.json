@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "sunstone:sunstone_block"
+		}
+	},
+	"result": {
+		"id": "sunstone:polished_sunstone",
+		"count": 4
+	}
+}

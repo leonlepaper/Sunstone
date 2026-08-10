@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "sunstone:polished_sunstone"
+	},
+	"result": {
+		"id": "sunstone:polished_sunstone_stairs",
+		"count": 1
+	}
+}

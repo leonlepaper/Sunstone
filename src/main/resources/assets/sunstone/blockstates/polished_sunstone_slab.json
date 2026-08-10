@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sunstone:block/polished_sunstone_slab"
+    },
+    "type=double": {
+      "model": "sunstone:block/polished_sunstone"
+    },
+    "type=top": {
+      "model": "sunstone:block/polished_sunstone_slab_top"
+    }
+  }
+}

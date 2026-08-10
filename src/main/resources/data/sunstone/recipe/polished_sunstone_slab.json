@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "sunstone:polished_sunstone"
+		}
+	},
+	"result": {
+		"id": "sunstone:polished_sunstone_slab",
+		"count": 6
+	}
+}

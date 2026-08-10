@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "sunstone:block/sunstone_block",
+    "side": "sunstone:block/sunstone_block",
+    "top": "sunstone:block/sunstone_block"
+  }
+}

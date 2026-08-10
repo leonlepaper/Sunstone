@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "sunstone:sunstone_block"
+		}
+	},
+	"result": {
+		"id": "sunstone:sunstone_slab",
+		"count": 6
+	}
+}
