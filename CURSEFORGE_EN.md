@@ -22,22 +22,13 @@ Smelt the raw sunstone you mine and you get **sunstone**. Everything starts ther
 
 ### Three branches
 
-```
-ore block --mine--> raw sunstone --smelt--> sunstone
-                                               |
-    +--------------------+---------------------+
-    |                    |                     |
-    9 in a grid          8 sunstone + apple    8 sunstone + a wheat seed
-    v                    v                     v
-    block of sunstone    sunstone apple        sunstone seed
-   (lights like a torch) (winds the day back)
-    |                                          |
- stonecutter                             plant on farmland
-    v                                          v
-polished sunstone,          6 growth stages -> sunstone flower
-stairs and slabs                               |
-                                            brewing
-```
+Sunstone forks three ways:
+
+- **9 in a crafting grid** — a block of sunstone, which a stonecutter turns
+  into polished sunstone, stairs and slabs.
+- **8 sunstone + an apple** — the sunstone apple, which winds the day backwards.
+- **8 sunstone + a wheat seed** — a sunstone seed. Plant it on farmland, let it
+  grow into a sunstone rose, then take the rose to a brewing stand.
 
 ### Building blocks
 
