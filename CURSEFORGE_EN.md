@@ -20,23 +20,34 @@ Silk Touch both work as you'd expect.
 
 Smelt the raw sunstone you mine and you get **sunstone**. Everything starts there.
 
-### Two branches
+### Three branches
 
 ```
 ore block --mine--> raw sunstone --smelt--> sunstone
                                                |
-                    +--------------------------+--------------------------+
-                    |                                                     |
-            9 in a crafting grid                        8 sunstone + a wheat seed
-                    v                                                     v
-            block of sunstone                                     sunstone seed
-            (lights like a torch)                                         |
-                    |                                            plant on farmland
-            8 blocks + an apple                                           v
-                    v                                    6 growth stages -> sunstone flower
-             sunstone apple                                               |
-        (winds the day backwards)                                      brewing
+    +--------------------+---------------------+
+    |                    |                     |
+    9 in a grid          8 sunstone + apple    8 sunstone + a wheat seed
+    v                    v                     v
+    block of sunstone    sunstone apple        sunstone seed
+   (lights like a torch) (winds the day back)
+    |                                          |
+ stonecutter                             plant on farmland
+    v                                          v
+polished sunstone,          6 growth stages -> sunstone flower
+stairs and slabs                               |
+                                            brewing
 ```
+
+### Building blocks
+
+A block of sunstone lights a room like a torch, and everything cut from it
+keeps that. A stair at light level 14 is exactly as bright as a full block —
+shape doesn't dim anything.
+
+Polished sunstone, plus stairs and slabs for both variants. Craft them like
+vanilla stone or run them through a stonecutter. You can light a base now
+without studding the walls with torches.
 
 ### Sunstone apple
 
