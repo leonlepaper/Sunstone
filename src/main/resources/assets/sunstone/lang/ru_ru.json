@@ -29,5 +29,13 @@
 	"item.minecraft.potion.effect.solar_distillate_3": "Дистиллят третьего порядка",
 	"item.minecraft.splash_potion.effect.solar_distillate_3": "Взрывной дистиллят третьего порядка",
 	"item.minecraft.lingering_potion.effect.solar_distillate_3": "Туманный дистиллят третьего порядка",
-	"item.minecraft.tipped_arrow.effect.solar_distillate_3": "Стрела дистиллята третьего порядка"
+	"item.minecraft.tipped_arrow.effect.solar_distillate_3": "Стрела дистиллята третьего порядка",
+	"advancements.sunstone.root.title": "Солнечный камень",
+	"advancements.sunstone.root.description": "Руда, которая светит, кормит и жжёт",
+	"advancements.sunstone.sunstone_apple.title": "Ещё 5 минут...",
+	"advancements.sunstone.sunstone_apple.description": "Съешьте солнечное яблоко и подчините ход времени",
+	"advancements.sunstone.self_ignition.title": "Ааа, потушите меня!",
+	"advancements.sunstone.self_ignition.description": "Облейте себя собственным взрывным дистиллятом третьего порядка",
+	"advancements.sunstone.overload_survived.title": "Закалённый",
+	"advancements.sunstone.overload_survived.description": "Переживите действие зелья без брони, без воды, без огнестойкости. Проявите волю и чудеса регенерации"
 }

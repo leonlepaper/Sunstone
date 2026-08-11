@@ -6,6 +6,44 @@
 
 ---
 
+## 1.2.5 — 11 августа 2026
+
+### Добавлено
+
+- **Достижения** — своя вкладка и три испытания: съесть солнечное яблоко,
+  вспыхнуть от собственного взрывного дистиллята и «Закалённый» — пережить
+  третий порядок целиком. Вкладка видна сразу, с первого входа в мир.
+- «Закалённый» — испытание с правилами: ни огнестойкости, ни золотых яблок,
+  ни воды, ни брони. Горение отнимает больше здоровья, чем есть у игрока,
+  так что дожить можно только на регенерации.
+
+### Изменено
+
+- **Третий порядок дистиллята длится 33 секунды вместо 30.** Длительность
+  подогнана под достижение: горение стоит 35 здоровья, регенерация II за свои
+  22 секунды возвращает 17, и от двадцати остаётся ровно одно сердце.
+
+---
+
+### English
+
+**Added**
+
+- **Advancements** — a tab of their own and three challenges: eat a sunstone
+  apple, catch fire from your own splash distillate, and *Tempered* for riding
+  out the third order in full. The tab is visible from your first join.
+- *Tempered* comes with rules: no fire resistance, no golden apples, no water,
+  no armour. Burning costs more health than a player has, so regeneration
+  is the only way through.
+
+**Changed**
+
+- **The third order now lasts 33 seconds instead of 30.** The duration is tuned
+  to the advancement: burning costs 35 health, Regeneration II gives back 17
+  over its 22 seconds, and twenty leaves you on exactly one heart.
+
+---
+
 ## 1.2.0 — 10 августа 2026
 
 ### Добавлено

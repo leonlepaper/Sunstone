@@ -1,0 +1,25 @@
+{
+	"parent": "sunstone:root",
+	"display": {
+		"icon": {
+			"id": "sunstone:sunstone_apple",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.sunstone.sunstone_apple.title"
+		},
+		"description": {
+			"translate": "advancements.sunstone.sunstone_apple.description"
+		}
+	},
+	"criteria": {
+		"eaten": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "sunstone:sunstone_apple"
+				}
+			}
+		}
+	}
+}

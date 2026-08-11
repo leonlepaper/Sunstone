@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "sunstone:sunstone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.sunstone.root.title"
+		},
+		"description": {
+			"translate": "advancements.sunstone.root.description"
+		},
+		"background": "sunstone:textures/block/sunstone_block.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"joined": {
+			"trigger": "minecraft:tick",
+			"conditions": {}
+		}
+	}
+}

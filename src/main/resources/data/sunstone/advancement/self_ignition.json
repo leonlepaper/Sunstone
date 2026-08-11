@@ -1,0 +1,27 @@
+{
+	"parent": "sunstone:root",
+	"display": {
+		"icon": {
+			"id": "minecraft:splash_potion",
+			"count": 1,
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "sunstone:solar_distillate_3"
+				}
+			}
+		},
+		"title": {
+			"translate": "advancements.sunstone.self_ignition.title"
+		},
+		"description": {
+			"translate": "advancements.sunstone.self_ignition.description"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"ignited": {
+			"trigger": "sunstone:self_ignition",
+			"conditions": {}
+		}
+	}
+}

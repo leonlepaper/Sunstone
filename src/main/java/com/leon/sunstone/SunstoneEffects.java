@@ -1,6 +1,7 @@
 package com.leon.sunstone;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.registry.Registries;
@@ -30,6 +31,13 @@ public class SunstoneEffects {
 	public static void registerEffects() {
 		// Сборщик мусора для блоков света: эффект может кончиться, а блок остаться.
 		ServerTickEvents.END_SERVER_TICK.register(SunlitStatusEffect::sweep);
+
+		// Достижения перегрева: эффект кончается без всякого хука, поэтому
+		// досматриваем попытки «пережить» тем же способом — обходом на тике.
+		ServerTickEvents.END_SERVER_TICK.register(SolarOverloadStatusEffect::sweep);
+
+		// И запоминаем брошенные взрывные зелья, чтобы отличить «поджёг себя сам».
+		UseItemCallback.EVENT.register(SolarOverloadStatusEffect::onItemUsed);
 
 		Sunstone.LOGGER.info("Регистрирую эффекты Sunstone");
 	}

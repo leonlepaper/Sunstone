@@ -29,5 +29,13 @@
 	"item.minecraft.potion.effect.solar_distillate_3": "Distillate of the Third Order",
 	"item.minecraft.splash_potion.effect.solar_distillate_3": "Splash Distillate of the Third Order",
 	"item.minecraft.lingering_potion.effect.solar_distillate_3": "Lingering Distillate of the Third Order",
-	"item.minecraft.tipped_arrow.effect.solar_distillate_3": "Arrow of the Third Order"
+	"item.minecraft.tipped_arrow.effect.solar_distillate_3": "Arrow of the Third Order",
+	"advancements.sunstone.root.title": "Sunstone",
+	"advancements.sunstone.root.description": "The ore that lights, feeds and burns",
+	"advancements.sunstone.sunstone_apple.title": "Five More Minutes...",
+	"advancements.sunstone.sunstone_apple.description": "Eat a sunstone apple and bend the day to your will",
+	"advancements.sunstone.self_ignition.title": "Somebody Put Me Out!",
+	"advancements.sunstone.self_ignition.description": "Splash yourself with your own distillate of the third order",
+	"advancements.sunstone.overload_survived.title": "Tempered",
+	"advancements.sunstone.overload_survived.description": "Ride out the potion with no armour, no water, no fire resistance. Sheer will and a great deal of regeneration"
 }

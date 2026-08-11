@@ -27,6 +27,7 @@ public class Sunstone implements ModInitializer {
 		// и только потом вкладка, которая ссылается на всё сразу.
 		SunstoneBlocks.registerBlocks();
 		SunstoneItems.registerItems();
+		SunstoneCriteria.registerCriteria();
 		SunstoneEffects.registerEffects();
 		SunstonePotions.registerPotions();
 		SunstoneItemGroups.registerItemGroups();

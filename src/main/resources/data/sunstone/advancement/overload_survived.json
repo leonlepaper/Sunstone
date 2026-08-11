@@ -1,0 +1,23 @@
+{
+	"parent": "sunstone:self_ignition",
+	"display": {
+		"icon": {
+			"id": "minecraft:fire_charge",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.sunstone.overload_survived.title"
+		},
+		"description": {
+			"translate": "advancements.sunstone.overload_survived.description"
+		},
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"survived": {
+			"trigger": "sunstone:overload_survived",
+			"conditions": {}
+		}
+	}
+}

@@ -68,7 +68,7 @@ than replacing it — though the stronger it gets, the shorter it lasts.
 |---|---|---|
 | **Solar Distillate** | Haste — ore comes away faster. No vanilla potion grants this at all; a beacon is your only other source | 1:30 |
 | **Second Order** | the same, plus **you light up the space around you** like a torch. Leave the torches at home | 1:30 |
-| **Third Order** | Haste II, the light — and you **burn**, trailing flames | 0:30 |
+| **Third Order** | Haste II, the light — and you **burn**, trailing flames | 0:33 |
 
 The third order is the only brew that asks something back. Fire resistance is
 left out on purpose: if you want the power, come prepared — your own potion,
@@ -78,6 +78,22 @@ Thrown, it's a weapon instead. Whatever it lands on catches fire.
 
 Splash and lingering versions are made the usual way, with gunpowder and
 dragon's breath.
+
+### Advancements
+
+A tab of their own, visible from your very first join — no guessing at what the
+mod can do. Three challenges, and the last one isn't for everyone.
+
+| Advancement | How |
+|---|---|
+| **Five More Minutes...** | eat a sunstone apple and bend the day to your will |
+| **Somebody Put Me Out!** | splash yourself with your own third-order distillate |
+| **Tempered** | ride out the third order in full |
+
+*Tempered* is the real one. Burning costs more health than a player has, and
+everything that saves you for free is banned: no fire resistance, no golden
+apples, no water or rain, no armour. Regeneration is all that's left, and only
+just — one bottle of the second level brings you home on exactly one heart.
 
 ### Requirements
 
